@@ -13,7 +13,7 @@ while (i <= 57)
 putchar(i);
 i++;
 }
-while ( ch <= 'f')
+while (ch <= 'f')
 {
 putchar(ch);
 ch++;
