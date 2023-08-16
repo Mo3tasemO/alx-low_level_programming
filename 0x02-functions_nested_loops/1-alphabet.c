@@ -1,17 +1,16 @@
 #include"main.h"
 /**
-* main - print_alphabet
-* is written by mbah
-* Return: 0
+* print_alphabet - print all alphabet in lowercase
+*
+* Return: Always 0 (Success)
 */
-int main(void)
+void print_alphabet(void)
 {
 char ch = 'a';
-while(ch <= 'z')
+while (ch <= 'z')
 {
 _putchar(ch);
 ch++;
 }
 _putchar('\n');
-return (0);
 }
