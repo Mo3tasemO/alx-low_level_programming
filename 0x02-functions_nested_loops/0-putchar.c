@@ -1,19 +1,17 @@
-#include"main.h"
+#include "main.h"
 /**
- * main - functions and nested loops
+ * main - functions and nestedloops
  *
- * Return: Always 0 (Success)
-*/
+ * Return: Alway 0 (Sucess)
+ */
+
 int main(void)
+int _putchar(char c)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	char str[] = "_putchar";
+	int ch;
+	for (ch = 0; ch <= 8; ch++)
+	         _putchar(str[ch]);
+	_putchar('\n');
+	return (0);
 }
