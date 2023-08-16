@@ -4,9 +4,8 @@
 * is written by mbah
 * Return: 0
 */
-int main(void)
+void print_alphabet(void);
 {
-print_alphabet();
 char ch = 'a';
 while(ch <= 'z')
 {
