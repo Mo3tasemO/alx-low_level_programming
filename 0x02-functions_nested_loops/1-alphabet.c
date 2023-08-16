@@ -6,6 +6,7 @@
 */
 int main(void)
 {
+print_alphabet();
 char ch = 'a';
 while(ch <= 'z')
 {
