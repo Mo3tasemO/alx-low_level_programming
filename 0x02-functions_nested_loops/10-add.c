@@ -6,8 +6,8 @@
 int add(int a, int b)
 {
 int n = add(a, b);
-n=0;
-while (n > 0)
+n = 0;
+while (n >= 0)
 {
 _putchar('n');
 }
