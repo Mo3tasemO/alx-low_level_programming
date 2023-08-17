@@ -6,8 +6,8 @@
  */
 void jack_bauer(void)
 {
-char c;
-for (c = '0'0:0'0'; c <= '23:59'; c++)
+int c;
+for (c = '00:00'; c <= '23:59'; c++)
 {
 _putchar('c');
 }
