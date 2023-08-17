@@ -1,16 +1,21 @@
 #include"main.h"
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- * @c: is the char to be checked
  * Return: Always 0 (Success)
  */
 void jack_bauer(void)
 {
-char c;
-for (c = '0'0:0'0'; c <= '23:59'; c++)
+int min, hr;
+for (hr = 0; hr <= 23; hr++)
 {
-_putchar('c');
-}
+for (min = 0; min <= 59; min++)
+{
+_putchar((hr / 10) + 48);
+_putchar((hr % 10) + 48);
+_putchar(':');
+_putchar((min / 10) + 48);
+_putchar((min % 10) + 48);
 _putchar('\n');
-return (0);
+}
+}
 }
