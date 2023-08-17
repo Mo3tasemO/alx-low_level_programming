@@ -3,8 +3,11 @@
  * _abs - computes the absolute value of an integer
  * Return: 1 and prints + if n is greater than zero
  */
-int _abs('1')
+int _abs(int n)
 {
-_abs(-1);
-return (0);
+if (n > 0)
+{
+return (n);
+}
+return (n);
 }
