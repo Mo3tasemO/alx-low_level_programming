@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * print_sign - print the sign of a number
- * @c: is the char to be checked
- * Return: 1 if char is aletter,lowercase or uppercase, otherwise 0.
+ * @n: is the char to be checked
+ * Return: 1 if char is greater than zero
+ * Return: 0 if char is equal zero
+ * Return: -1 if char is lessthan zero
  */
 int print_sign(int n)
 {
