@@ -8,5 +8,5 @@ int add(int a, int b)
 int n = add(a, b);
 _putchar('n');
 _putchar('\n');
-return (0);
+return (n);
 }
