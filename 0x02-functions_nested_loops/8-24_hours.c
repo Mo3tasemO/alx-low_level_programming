@@ -6,11 +6,18 @@
  */
 void jack_bauer(void)
 {
-int c;
-for (c = '00:00'; c <= '23:59'; c++)
+int min, hr;
+for (hr = 0; hr <= 23; hr++)
 {
-_putchar('c');
-}
+for (min = 0; min <= 59; min++)
+{
+_putchar((hr / 10) + 48);
+_putchar((hr % 10) + 48);
+_putchar(':');
+_putchar((min / 10) + 48);
+_putchar((min % 10) + 48);
 _putchar('\n');
+}
+}
 return (0);
 }
