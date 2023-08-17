@@ -1,7 +1,6 @@
 #include"main.h"
-#include<stdbool.h>
 /**
-* islower - chech the lowercase character
+* _islower - chech if c is lowercase character
 *
 * Return: Always 0 (Success)
 */
