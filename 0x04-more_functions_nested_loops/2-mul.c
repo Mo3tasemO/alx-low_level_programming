@@ -1,9 +1,9 @@
 #include"main.h"
 /**
 * mul -  multiplies two integers
-* 
-* 
-*Return: Always 0 (Success)
+* @a: int to be multiply to b
+* @b: int to be multiply to a 
+* Return: Always 0 (Success)
 */
 int mul(int a, int b)
 {
