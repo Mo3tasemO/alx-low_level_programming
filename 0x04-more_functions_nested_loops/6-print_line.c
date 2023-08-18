@@ -6,7 +6,7 @@
  */
 void print_line(int n)
 {
-a = 0;
+int a = 0;
 if (n > 0)
 {
 while (a <= n)
