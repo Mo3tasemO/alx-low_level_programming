@@ -12,7 +12,7 @@ _putchar('\n');
 else
 {
 for (a = 0; a <= n; a++)
-_putchar('\\');
+_putchar(92);
 _putchar('\n');
 }
 }
