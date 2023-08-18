@@ -12,11 +12,13 @@ while (i < 9)
 {
 while (j <= 14)
 {
-_putchar(j);
+if (j > 10)
+_putchar(j / 10 + '0');
+_putchar(a % 10 + '0');
 j++;
 }
-_putchar(i);
-}
 _putchar('\n');
-return (0);
+i++;
+i = 0;
+}
 }
