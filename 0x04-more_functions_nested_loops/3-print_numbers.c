@@ -12,5 +12,5 @@ for (c = 48; c <= 57; c++)
 _putchar('c');
 }
 _putchar('\n');
-return (0);
+return (c);
 }
