@@ -15,9 +15,8 @@ _putchar('_');
 a++;
 }
 _putchar('\n');
-n++;
 }
 else
 _putchar('\n');
-return (n);
+return (0);
 }
