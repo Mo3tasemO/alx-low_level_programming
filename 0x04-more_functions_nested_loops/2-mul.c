@@ -2,7 +2,8 @@
 /**
 * mul -  multiplies two integers
 * 
-* Return: Always 0 (Success)
+* 
+*Return: Always 0 (Success)
 */
 int mul(int a, int b)
 {
