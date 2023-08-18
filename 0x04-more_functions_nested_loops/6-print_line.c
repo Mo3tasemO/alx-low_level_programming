@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_line - draws a straight line in the terminal
+ * print_line - function that checks for uppercase character.
  * @n: is the integer for the paramaters of my function
- * Return: Always 0.
+ * Return: 0
  */
 void print_line(int n)
 {
