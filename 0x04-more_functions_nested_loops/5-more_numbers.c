@@ -5,19 +5,19 @@
  */
 void more_numbers(void)
 {
-int i = 0;
-int j = 0;
-while (j <= 9)
+int a = 0;
+int b = 0;
+while (b <= 9)
 {
-while (i <= 14)
+while (a <= 14)
 {
-if (i > 10)
-_putchar(i / 10 + '0');
-_putchar(i % 10 + '0');
-i++;
+if (a > 9)
+_putchar(a / 10 + '0');
+_putchar(a % 10 + '0');
+a++;
 }
 _putchar('\n');
-j++;
-i = 0;
+b++;
+a = 0;
 }
 }
