@@ -9,14 +9,15 @@ void print_square(int size)
 int a, b;
 if (size > 0)
 {
-for (a = 0; a <= 9; a++)
+for (a = 0; a < sizq; a++)
 {
-for (b = 0; b <= 10; b++)
+for (b = 0; b < (size - 1); b++)
 _putchar('#');
-if (a == (size - 1))
-continue;
 _putchar('\n');
 }
 }
+else
+{
 _putchar('\n');
+}
 }
