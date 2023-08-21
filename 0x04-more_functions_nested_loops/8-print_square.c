@@ -11,7 +11,7 @@ if (size > 0)
 {
 for (a = 0; a <= size; a++)
 {
-for (b = 0; b <= a; b++)
+for (b = 0; b <= 10; b++)
 _putchar('#');
 if (a == (size - 1))
 continue;
