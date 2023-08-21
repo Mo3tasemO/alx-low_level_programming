@@ -1,16 +1,22 @@
 #include"main.h"
 /**
- * print_last_digit - prints the last digit of a number
- * @n: is the char to be checked
- * Return: Always 0 (Success)
- */
+  * print_last_digit - Prints the last digit of a number
+  * @n: The number to be treated
+  *
+  * Return: Value of the last digit of number
+  */
 int print_last_digit(int n)
 {
-int lastdigit;
-if (n < 0)
-lastdigit = -1 * (n % 10);
-else
-lastdigit = n % 10;
-_putchar(lastdigit + '0');
-return (lastdigit);
+	int last;
+
+	last = n % 10;
+
+	if (last < 0)
+	{
+		last = last * -1;
+	}
+
+	_putchar(last + '0');
+
+	return (last);
 }
