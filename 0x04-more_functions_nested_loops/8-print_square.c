@@ -13,6 +13,7 @@ for (a = 0; a < sizq; a++)
 {
 for (b = 0; b < (size - 1); b++)
 _putchar('#');
+_putchar('#');
 _putchar('\n');
 }
 }
