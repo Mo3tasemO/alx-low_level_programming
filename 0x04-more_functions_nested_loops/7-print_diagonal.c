@@ -14,7 +14,7 @@ for (a = 0; a < n; a++)
 for (b = 0; b < a; b++)
 _putchar(' ');
 _putchar('\\');
-if (n < 0)
+if (a == (n - 1))
 continue;
 _putchar('\n');
 }
