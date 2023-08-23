@@ -5,5 +5,6 @@
  */
 void _puts(char *str)
 {
-puts("%s\n", str);
+puts(str);
+return 0;
 }
