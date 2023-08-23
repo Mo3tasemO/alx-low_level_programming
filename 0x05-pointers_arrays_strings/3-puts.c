@@ -6,5 +6,6 @@
 void _puts(char *str)
 {
 fgets(str, sizeof(str), stdin);
+puts(str);
 return 0;
 }
