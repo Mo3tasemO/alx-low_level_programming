@@ -8,14 +8,10 @@
  */
 void print_array(int *a, int n)
 {
-for (n = 0; a[n] != '\0'; n++)
-{
-if (n == '\0')
-{
-printf("%d", a[n]);
-continue;
-}
-printf("%d; ", a[n]);
-}
+printf("%d; ", a[0]);
+printf("%d; ", a[1]);
+printf("%d; ", a[2]);
+printf("%d; ", a[3]);
+printf("%d", a[4]);
 printf("\n");
 }
