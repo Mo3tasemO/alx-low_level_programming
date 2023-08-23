@@ -10,5 +10,5 @@ while(str[i] != '\0')
 {
 i++;
 }
-return 0;
+return (i);
 }
