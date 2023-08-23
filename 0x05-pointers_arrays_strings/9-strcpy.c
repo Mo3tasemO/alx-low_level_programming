@@ -11,5 +11,6 @@ char *_strcpy(char *dest, char *src)
 {
 char *p = dest + '\0';
 strcpy(p, src);
-printf(dest);
+printf("%c", dest);
+return 0;
 }
