@@ -4,6 +4,7 @@
  * @str: pointer to the string to print
  */
 void _puts(char *str)
+int _putchar(char c)
 {
 int i;
 for (i = 0; str[i] != '\0'; i++)
