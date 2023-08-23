@@ -9,8 +9,8 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-char *p = dest;
+char *p = dest + 1;
 strcpy(p, src);
 printf("%s\n", dest);
-return 0;
+return (0);
 }
