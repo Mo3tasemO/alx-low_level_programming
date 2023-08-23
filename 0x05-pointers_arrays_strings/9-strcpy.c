@@ -9,7 +9,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-char *p = dest - '\0';
+char *p = dest - 1;
 strcpy(p, src);
 printf("%s\n", dest);
 return (dest);
