@@ -5,6 +5,6 @@
  */
 void _puts(char *str)
 {
-puts(str);
+fgets(str, sizeof(str), stdin);
 return 0;
 }
