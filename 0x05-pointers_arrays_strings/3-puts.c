@@ -5,7 +5,10 @@
  */
 void _puts(char *str)
 {
-fgets(str, sizeof(str), stdin);
-puts(str);
+int i = 0;
+while(str[i] != '\0')
+{
+i++;
+}
 return 0;
 }
