@@ -13,5 +13,5 @@ char *len = *src + '\0';
 src = len;
 strcat(dest, src);
 printf("%s", dest);
-return (0);
+return (dest);
 }
