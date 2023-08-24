@@ -9,8 +9,13 @@
 int _strcmp(char *s1, char *s2)
 {
 int len = strcmp(*s1, *s2);
-if (len ==0)
+if (len == 0)
+{
 return 0;
+}
 else
+{
 return 1;
+}
+return (*s1 - *s2);
 }
