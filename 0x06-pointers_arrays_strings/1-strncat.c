@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
  * _strncat -  function is similar to the _strcat function
  * @dest: to be checked
@@ -13,7 +14,7 @@ while (dest[len] != '\0')
 {
 len++;
 }
-for (i = 0; src[i] != '\0'; i++; len++)
+for (i = 0; src[i] != '\0'; i++, len++)
 {
 dest[len] = src[i];
 }
