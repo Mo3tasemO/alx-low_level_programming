@@ -1,4 +1,6 @@
 #include"main.h"
+#include<stdio.h>
+#include<string.h>
 /**
  * _strcat - concatenates two strings
  * @dest: to be checked
@@ -7,9 +9,9 @@
  */
 char *_strcat(char *dest, char *src)
 {
-int len;
-len = src + '\0';
-strncat(dest, len);
+char *len = *src + '\0';
+src = len;
+strcat(dest, src);
 printf("%s", dest);
 return (0);
 }
