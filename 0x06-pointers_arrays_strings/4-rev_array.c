@@ -15,6 +15,6 @@ for (i = 0; i < n / 2; i++)
 {
 len1 = a[i];
 a[i] = a[len];
-a[len--] = len1; 
+a[len--] = len1;
 }
 }
