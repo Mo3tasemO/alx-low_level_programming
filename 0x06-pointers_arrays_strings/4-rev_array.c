@@ -8,18 +8,13 @@
  */
 void reverse_array(int *a, int n)
 {
-int len;
-len = sizeof(a) / sizeof(a[0]);
-for (n = len - 1; n >= 0; n--)
+int i;
+int len1;
+int len = n - 1;
+for (i = 0; i < n / 2; i++)
 {
-if (n == 0)
-{
-printf("%d", *(a + n));
-continue;
-}
-else
-{
-printf("%d, ", *(a + n));
-}
+len1 = a[i];
+a[i] = a[len];
+a[len--] = len1;
 }
 }
