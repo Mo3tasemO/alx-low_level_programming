@@ -15,7 +15,7 @@ if ((s[i] >= 'a' && s[i] <= 'z'))
 s[i] = s[i] - 32;
 continue;
 }
-if (s[i] = ' ')
+if (s[i] == ' ')
 {
 i++;
 if (s[i] >= 'a' && s[i] <= 'z')
