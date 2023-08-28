@@ -12,7 +12,7 @@ int i;
 char alpha[] = "c";
 for (i = 0; i < strlen(alpha); i++)
 {
-if (s[i] = c)
+if (s[i] = 'c')
 {
 return (s);
 }
