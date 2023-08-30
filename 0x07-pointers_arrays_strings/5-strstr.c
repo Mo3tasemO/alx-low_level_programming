@@ -15,7 +15,7 @@ for (i = 0; haystack[i]; i++)
 {
 if (*needle == haystack[i])
 return (needle);
-else 
+else
 return (haystack);
 }
 needle++;
