@@ -18,7 +18,7 @@ break;
 else
 return (haystack);
 }
-needle++;
+haystack++;
 }
 return (NULL);
 }
