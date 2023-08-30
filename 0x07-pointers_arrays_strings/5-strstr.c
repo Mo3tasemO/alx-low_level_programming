@@ -18,9 +18,9 @@ if (*needle != haystack[i])
 break;
 }
 if (i != s)
-haystack++;
+needle++;
 else
-return (haystack);
+return (needle);
 }
 return (NULL);
 }
