@@ -14,7 +14,7 @@ while (needle[s] != '\0')
 s++;
 while (*haystack)
 {
-for (i = 0; needle[i] != '\0'; i++)
+for (i = 0; needle[i]; i++)
 {
 if (*haystack != needle[i])
 break;
