@@ -13,5 +13,6 @@ else if (y == 0)
 return (1);
 else if (y > 0)
 return (_pow_recursion(x, y));
+else
 return (_pow_recursion(y, x));
 }
