@@ -1,3 +1,4 @@
+#include <string.h>
 #include"main.h"
 /**
  * _print_rev_recursion - prints a string in reverse.
@@ -11,6 +12,7 @@ if (*s == '\0')
 _putchar('\n');
 return;
 }
+strrev(*s);
 _putchar(*s);
 _print_rev_recursion(s + 1);
 }
