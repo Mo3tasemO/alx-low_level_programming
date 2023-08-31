@@ -13,7 +13,7 @@ if (*s == '\0')
 _putchar('\n');
 return;
 }
-int k = *s - 1;
+char k = *s - 1;
 _putchar(k);
 _print_rev_recursion(s + 1);
 }
