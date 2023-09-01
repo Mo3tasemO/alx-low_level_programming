@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * @argc: to be checked
- * @argv: to be checked
- * Return: Succes (0)
+ * main - prints the number of arguments passed into it
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0
 */
 int main (int argc, char *argv[])
 {
