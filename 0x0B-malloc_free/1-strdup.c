@@ -18,7 +18,7 @@ if (ar == NULL)
 return (NULL);
 while (str[j])
 {
-ar[j] = str[i];
+ar[j] = str[j];
 j++;
 }
 ar[j + 1] = 0;
