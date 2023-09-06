@@ -3,6 +3,7 @@
 /**
  * simple_print_buffer - prints buffer in hexa
  * @c: to be checked
+ * @n: to be checked
  * @size: to be checked
  * Return: Success 0
  */
@@ -20,6 +21,5 @@ while (i < size)
 str[i] = c;
 i++;
 }
-free(str);
 return (str);
 }
