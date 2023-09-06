@@ -6,7 +6,7 @@
  * @n: to be checked
  * @size: to be checked
  * Return: Success 0
- */
+*/
 char *create_array(unsigned int size, char c)
 {
 unsigned int i = 0;
