@@ -15,13 +15,13 @@ if (str == NULL)
 return (NULL);
 }
 while (str[i])
-i++
+i++;
 if (ar == NULL)
 return (NULL);
 while (str[j])
 {
 ar[j] = str[i];
-j++
+j++;
 }
 ar[j + 1] = 0;
 return (ar);
