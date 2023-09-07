@@ -20,7 +20,7 @@ return (NULL);
 while (i < 1)
 {
 p[i] = 0;
-i++
+i++;
 }
 return (p);
 }
