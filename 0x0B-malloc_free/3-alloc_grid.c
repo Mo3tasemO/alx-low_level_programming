@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grid - that returns a pointer to a 2 dimensional
- * @width: to be checked
- * @height: to be checked
- * Return: Success 0
+* alloc_grid - that returns a pointer to a 2 dimensional
+* @width: to be checked
+* @height: to be checked
+* Return: Success 0
 */
 int **alloc_grid(int width, int height)
 {
