@@ -8,8 +8,8 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-unsigned int i, j;
-int k, q;
+int i, j;
+int k = 0, q = 0;
 for (i = 0; s1[i] != '\0'; i++)
 {
 for (j = 0; s2[j] != '\0'; j++)
